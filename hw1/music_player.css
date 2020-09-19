@@ -44,24 +44,24 @@ body {
 }
 
 .down img {
-    width: 25px;
-    height: 15px;
+    width: 22px;
+    height: 12px;
     margin: 0 auto;
     margin-top: 20px;
     margin-left: 10px;
 }
 
 .track img {
-    width: 32px;
-    height: 27px;
+    width: 28px;
+    height: 24px;
     margin: 0 auto;
     margin-top: 12px;
-    margin-left: 10px;
+    margin-left: 14px;
 }
 
 .dots img {
-    width: 24px;
-    height: 22px;
+    width: 22px;
+    height: 20px;
     margin: 0 auto;
     margin-top: 14px;
     margin-right: 7px;
@@ -111,6 +111,17 @@ body {
     margin-top: 5px;
 }
 
+.plus_row img:hover {
+    transform:scale(1.2);
+    transition: opacity 0.2s;
+}
+
+.plus_row p:hover {
+    cursor: default;
+    transform:scale(1.2);
+    transition: opacity 0.2s;
+}
+
 
 .plus_row {
     border: transparent 1px solid;
@@ -130,6 +141,7 @@ body {
 }
 
 .plus img {
+    transition: transform 1s ease;
     width: 20px;
     height: 20px;
     margin: 0 auto;
@@ -137,6 +149,7 @@ body {
 }
 
 .heart img {
+    transition: transform 1s ease;
     width: 20px;
     height: 20px;
     margin: 0 auto;
@@ -144,6 +157,7 @@ body {
 }
 
 .lyrics p {
+    transition: transform 1s ease;
     color: white;
     margin: 12px auto;
 }
